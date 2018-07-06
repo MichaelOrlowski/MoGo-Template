@@ -1,0 +1,45 @@
+#our-work{
+  @import "styles_for_sections";
+  padding-top:100px;
+
+  .whole-screen-container{
+    min-height:200px;
+    width:100%;
+    margin-top:50px;
+  }
+
+  .col-3{
+    padding:0;
+  }
+  .picture{
+    height:400px;
+    width:100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    transition: all .2s ease;
+
+  }
+  #first-p{
+    background-image:url("../img/our_work/most_1.jpg");
+  }
+  #second-p{
+    background-image:url("../img/our_work/plaza.jpg");
+  }
+  #third-p{
+    background-image:url("../img/our_work/wieza.jpg");
+  }
+  #forth-p{
+    background-image:url("../img/our_work/sufit.jpg");
+  }
+  #column-picture{
+    height:800px;
+    background-image:url("../img/our_work/meduza.jpg");
+    background-size:cover;
+}
+  #fifth-p{
+    background-image:url("../img/our_work/wiezowce.jpg");
+  }
+  #sixth-p{
+    background-image:url("../img/our_work/most_2.jpg");
+  }
+}

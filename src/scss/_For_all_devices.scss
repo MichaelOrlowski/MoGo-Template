@@ -1,0 +1,40 @@
+#for-all-devices{
+  @import "_styles_for_sections.scss";
+
+  .background-screen-img{
+    background:url("../img/for_all_devices/AdobeStock_73692622_Previewaaaaa.jpg") no-repeat  center;
+    background-size:cover;
+    min-height:80vh;
+  }
+
+  .tablet-img{
+    background:url("../img/for_all_devices/display-bg.png") no-repeat center bottom;
+    background-size: contain;
+    background-clip: border-box;
+    min-height:70vh;
+  }
+  .phone-img{
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  .phone{
+    position:relative;
+    top:300px;
+    right:50px;
+  }
+  .section-container{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-content: space-between;
+    height:75.5vh;
+
+  }
+.image{
+  height:200px;
+
+}
+
+
+}

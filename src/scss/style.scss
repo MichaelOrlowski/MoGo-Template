@@ -1,0 +1,24 @@
+@import "bootstrap/bootstrap";
+@import "settings";
+@import "fonts";
+
+//Custom elements
+@import "custom/elements";
+
+//Custom styles
+@import "custom/navbar";
+
+//Sections
+@import "top_section";
+@import "story_section";
+@import "service";
+@import "section_slider";
+@import "slick";
+@import "slick_theme";
+@import "team";
+@import "work_with_section";
+@import "For_all_devices";
+@import "our_work";
+@import "happy_clients";
+@import "blog";
+@import "subscription";

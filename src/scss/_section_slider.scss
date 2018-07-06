@@ -1,0 +1,26 @@
+.slider{
+  @import "_styles_for_sections.scss";
+  margin-top:100px;
+  min-height:200px;
+  background:whitesmoke;
+  .orange{
+    background-color: rgba(243, 129, 129, 1);
+  }
+  .slick_slider{
+    height:100%;
+  }
+  .draggable{
+    height:100%;
+  }
+  .slick-track{
+    height:100%;
+  }
+  .row{
+    height:100%;
+  }
+  .not-main-text{
+    color:darkgrey;
+    text-align: left;
+  }
+
+}

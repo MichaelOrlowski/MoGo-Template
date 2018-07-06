@@ -1,0 +1,28 @@
+
+#work-with{
+  @import "_styles_for_sections.scss";
+  padding-bottom:50px;
+
+  .img-container{
+    height:100%;
+    display:inline-block;
+    margin-right:15px;
+  }
+
+  .head-services{
+    display:inline-flex;
+    //position:relative;
+    //bottom:10px;
+    font-size:12px;
+  }
+  .not-main-text{
+    font-size:12px;
+    display:block;
+    text-align: start;
+
+  }
+  .service-container{
+    display:flex;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,39 @@
+#top {
+  min-height: 100vh;
+  background-image: url("../img/top_section/header-img.jpg");
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  .top-header {
+    display: none;
+    padding: 50px 0 0;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .separator {
+    margin: 20px auto;
+  }
+  .pointer{
+    cursor:pointer;
+  }
+  .top-slider-wrapper {
+    height: 3px;
+    background-color: rgba(255, 255, 255, 0.5);
+    &.active {
+      background-color: rgba(255, 255, 255, 1);
+      .top-slider-wrapper_progress {
+        height: 3px;
+        background-color: rgba(243, 129, 129, 1);
+        width: 0;
+      }
+    }
+  }
+  .top-slider-text {
+    font-size: 18px;
+    .top-slider-number {
+      font-size: 24px;
+    }
+  }
+}

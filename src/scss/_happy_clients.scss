@@ -1,0 +1,24 @@
+#happy-clients{
+  padding-top:100px;
+  @import "styles_for_sections";
+
+  .background-screen-img{
+    padding-top:100px;
+    background:url("../img/happy_clients/altitude-clouds-cold-417173.png") no-repeat  center;
+    background-size:cover;
+    min-height:80vh;
+  }
+  .separator-for-person-info{
+    margin:10px 0;
+  }
+  .name{
+    margin:2px 0;
+  }
+  .job{
+    margin:2px 0;
+  }
+  .info-clients-container{
+    padding:150px 0;
+  }
+
+}

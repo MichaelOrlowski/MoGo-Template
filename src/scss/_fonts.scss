@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:300,400,500,600,700,800,900&amp;subset=latin-ext|Roboto');
+
+.kaushan-script-font{
+  font-family: 'Kaushan Script', sans-serif;
+}
+
+.montserrat-font{
+  font-family: 'Montserrat', sans-serif;
+
+  &.light{
+    font-weight: 300;
+  }
+  &.regular{
+    font-weight: 400;
+  }
+  &.medium{
+    font-weight: 500;
+  }
+  &.semi-bold {
+    font-weight: 600;
+  }
+  &.bold{
+    font-weight: 700;
+  }
+  &.extra-bold{
+    font-weight: 800;
+  }
+  &.black{
+    font-weight: 900;
+  }
+}
+
+.text-huge{
+  font-size:150px;
+  @media (max-width: 1440px){
+    font-size:120px;
+  }
+  @media (max-width: 1200px){
+    font-size:100px;
+  }
+  @media (max-width: 990px){
+    font-size:80px;
+  }
+  @media (max-width: 480px){
+    font-size:50px;
+  }
+}

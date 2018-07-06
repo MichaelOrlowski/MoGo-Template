@@ -1,0 +1,111 @@
+#team {
+  @import "_styles_for_sections";
+  padding-top: 100px;
+
+  .story_link {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+
+  }
+
+  .background {
+    background-color: #95e1d3;
+
+    &:hover .image {
+      transform: translate(-10px, -10px);
+
+    }
+
+    .image {
+      transition: all .2s ease;
+      background-image: url("../img/story/500_F_89004008_miVry3kyhWEIgHfvzqXprbM6mjtuA22m.jpg");
+
+      &.tile_1 {
+        background-image: url("../img/team/Grafik.jpg")
+      }
+      &.tile_2 {
+        background-image: url("../img/team/Menadzer.jpg");
+      }
+      &.tile_3 {
+        background-image: url("../img/team/Kobieta.jpg")
+      }
+      &:hover .gradient {
+        opacity: 1;
+
+      }
+      .gradient {
+        height: 500px;
+        opacity: 0;
+        justify-content: center;
+        align-items: center;
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fce38a+1,f38181+100&0.9+0,0.9+100 */
+        background: -moz-linear-gradient(top, rgba(252, 227, 138, 0.9) 0%, rgba(252, 227, 138, 0.9) 1%, rgba(243, 129, 129, 0.9) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, rgba(252, 227, 138, 0.9) 0%, rgba(252, 227, 138, 0.9) 1%, rgba(243, 129, 129, 0.9) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, rgba(252, 227, 138, 0.9) 0%, rgba(252, 227, 138, 0.9) 1%, rgba(243, 129, 129, 0.9) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e6fce38a', endColorstr='#e6f38181', GradientType=0); /* IE6-9 */
+      }
+    }
+  }
+  .fa{
+    padding: 6px;
+    font-size: 48px;
+    height:60px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    background-color:rgba(252, 227, 138, 0.9);
+    color:#C05D5D;
+    transition: all .4s ease;
+  }
+  .fa:hover{
+    background-color:#C05D5D;
+    color:white;
+  }
+
+  .facebook {
+    background-image: url("../img/icons/media spolecznosciowe/facebook logo 1.png");
+    background-size: cover;
+    height: 48px;
+    width: 48px;
+    transition: all .2s ease;
+  }
+
+  .facebook:hover {
+    background-image: url("../img/icons/media spolecznosciowe/facebook logo 2.png");
+  }
+
+  .twitter:hover {
+    background-image: url("../img/icons/media spolecznosciowe/Twitter 1.png");
+
+  }
+  .printer:hover {
+    background-image: url("../img/icons/media spolecznosciowe/pintrest icon 1.png");
+
+  }
+  .instagram:hover {
+    background-image: url("../img/icons/media spolecznosciowe/instagram icon 2.png");
+
+  }
+  .job{
+    color:lightgrey;
+  }
+  .name{
+    padding-top:10px;
+  }
+  .signs{
+    background-color:whitesmoke;
+    min-height:200px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    margin-top:50px;
+    .logo{
+      display:flex;
+      justify-content: center;
+    }
+  }
+
+}

@@ -1,0 +1,20 @@
+.navbar {
+  .navbar-brand {
+    font-weight: 700;
+    font-size: 30px;
+  }
+  .nav-item {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 14px;
+    padding-bottom: 5px;
+    margin-left: 50px;
+    cursor: pointer;
+    &.active, &:hover {
+      border-bottom: 2px solid $navbar-light-active-color;
+    }
+  }
+  #navbarNavAltMarkup {
+    justify-content: flex-end;
+  }
+}
