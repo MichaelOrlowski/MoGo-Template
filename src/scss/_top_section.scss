@@ -7,7 +7,7 @@
   color: #ffffff;
   .top-header {
     display: none;
-    padding: 50px 0 0;
+    padding: 200px 0 0;
     width: 60%;
     margin-left: auto;
     margin-right: auto;
@@ -36,4 +36,15 @@
       font-size: 24px;
     }
   }
+  .navbar{
+    position:fixed;
+    width:100%;
+    background-color: transparent;
+    z-index:2;
+  }
+  .scrolled {
+    background-color: rgba(243, 129, 129, 1) !important;
+    transition: background-color 200ms linear;
+  }
+
 }
