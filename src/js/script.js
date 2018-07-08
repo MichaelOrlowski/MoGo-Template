@@ -31,6 +31,8 @@
 
     let counter = 0;
 
+    let nav_link = $('.nav-link');
+
     let $click_changer_4 = $('#js-slider-click_4');
     let $click_changer_3 = $('#js-slider-click_3');
     let $click_changer_2 = $('#js-slider-click_2');
@@ -47,7 +49,7 @@
     let $link = $('#top-header__link');
     let $loader = $('.loader');
 
-    console.log("cos-tam");
+
 
 
     $($win).on('load', function () {
@@ -166,6 +168,31 @@
 
 
     //scroll function
+
+
+    nav_link.on('click', function(event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            let hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 800, function(){
+
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+            });
+        } // End if
+    });
+
+
 
 
 
