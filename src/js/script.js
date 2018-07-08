@@ -140,8 +140,22 @@
         $($(this).parent().find('.accordion_arrow')).addClass('rotate');
 
         let images = $('.accordion_image');
+        let $active_image = $('.active-photo');
 
-        images.addClass('hidden');
+        let imageClass = $(this).attr('data-image');
+
+        let image = $(imageClass);
+
+        // $images.hide('slow', function () {
+        //     $images.addClass('hidden');
+        //     // images.removeClass('active-photo');
+        // });
+
+        image.hide('slow', function () {
+            image.addClass('hidden');
+        });
+
+        // $images.addClass('hidden');
     });
 
     $('.collapse').on('shown.bs.collapse', function () {
@@ -152,13 +166,23 @@
         let image = $(imageClass);
         let images = $('.accordion_image');
 
-        images.addClass('hidden');
-        image.removeClass('hidden');
+
+        images.hide('fast', function () {
+            images.addClass('hidden');
+        });
+
+
+        image.show('slow', function(){
+            image.removeClass('hidden');
+        });
+
+
 
     });
 
 
-//acordion scroll
+
+    //acordion image END
 
 
     //slick slider initialize
